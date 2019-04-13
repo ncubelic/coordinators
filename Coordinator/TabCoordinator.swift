@@ -16,14 +16,14 @@ class TabCoordinator: NSObject {
     
     var homeCoordinator: HomeCoordinator
     var favoriteCoordinator: FavoriteCoordinator
-    var cartCoordinator: CartCoordinator
+    var cartCoordinator: CartCoordiantor
     
     init(tabBarController: UITabBarController) {
         self.tabBarController = tabBarController
 
         homeCoordinator = HomeCoordinator(navigationController: UINavigationController())
         favoriteCoordinator = FavoriteCoordinator(navigationController: UINavigationController())
-        cartCoordinator = CartCoordinator(navigationController: UINavigationController())
+        cartCoordinator = CartCoordiantor(navigationController: UINavigationController())
         super.init()
     }
     

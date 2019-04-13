@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DBEE10E22625E9D009A5995 /* CartCoordiantor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBEE10D22625E9D009A5995 /* CartCoordiantor.swift */; };
 		930D7BD320443C94003CBD7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D7BD220443C94003CBD7A /* AppDelegate.swift */; };
 		930D7BDA20443C94003CBD7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930D7BD920443C94003CBD7A /* Assets.xcassets */; };
 		930D7BDD20443C94003CBD7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930D7BDB20443C94003CBD7A /* LaunchScreen.storyboard */; };
@@ -16,7 +17,6 @@
 		937E6D4B2045751100215559 /* FavoriteCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937E6D4A2045751100215559 /* FavoriteCoordinator.swift */; };
 		937E6D4D2045764000215559 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937E6D4C2045764000215559 /* FavoriteViewController.swift */; };
 		937E6D4F20458F8600215559 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937E6D4E20458F8600215559 /* CartViewController.swift */; };
-		937E6D5120458F9800215559 /* CartCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937E6D5020458F9800215559 /* CartCoordinator.swift */; };
 		937E6D53204690A800215559 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937E6D52204690A800215559 /* TabCoordinator.swift */; };
 		937E6D55204696DE00215559 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937E6D54204696DE00215559 /* HomeViewController.swift */; };
 		9398DCC820453BC30013BEA7 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9398DCC720453BC30013BEA7 /* Login.storyboard */; };
@@ -31,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DBEE10D22625E9D009A5995 /* CartCoordiantor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCoordiantor.swift; sourceTree = "<group>"; };
 		930D7BCF20443C94003CBD7A /* Coordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		930D7BD220443C94003CBD7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		930D7BD920443C94003CBD7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,7 +43,6 @@
 		937E6D4A2045751100215559 /* FavoriteCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCoordinator.swift; sourceTree = "<group>"; };
 		937E6D4C2045764000215559 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		937E6D4E20458F8600215559 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
-		937E6D5020458F9800215559 /* CartCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCoordinator.swift; sourceTree = "<group>"; };
 		937E6D52204690A800215559 /* TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
 		937E6D54204696DE00215559 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9398DCC720453BC30013BEA7 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
@@ -148,7 +148,7 @@
 			children = (
 				9398DCDC20455CF10013BEA7 /* Cart.storyboard */,
 				937E6D4E20458F8600215559 /* CartViewController.swift */,
-				937E6D5020458F9800215559 /* CartCoordinator.swift */,
+				2DBEE10D22625E9D009A5995 /* CartCoordiantor.swift */,
 			);
 			path = Cart;
 			sourceTree = "<group>";
@@ -180,11 +180,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Ingemark;
 				TargetAttributes = {
 					930D7BCE20443C94003CBD7A = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -238,10 +239,10 @@
 				937E6D4D2045764000215559 /* FavoriteViewController.swift in Sources */,
 				930D7BD320443C94003CBD7A /* AppDelegate.swift in Sources */,
 				9398DCD520454F650013BEA7 /* LoadingViewController.swift in Sources */,
+				2DBEE10E22625E9D009A5995 /* CartCoordiantor.swift in Sources */,
 				937E6D4F20458F8600215559 /* CartViewController.swift in Sources */,
 				9398DCCA20453C150013BEA7 /* AuthenticateViewController.swift in Sources */,
 				9398DCCC20453EC60013BEA7 /* HomeCoordinator.swift in Sources */,
-				937E6D5120458F9800215559 /* CartCoordinator.swift in Sources */,
 				937E6D4B2045751100215559 /* FavoriteCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +275,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -281,6 +283,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -331,6 +334,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -338,6 +342,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -372,12 +377,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LG45P8D7VF;
+				DEVELOPMENT_TEAM = 2XRR59CY6S;
 				INFOPLIST_FILE = "$(SRCROOT)/Coordinator/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ingemark.test.Coordinator;
+				PRODUCT_BUNDLE_IDENTIFIER = hr.lioncode.test.Coordinator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -387,12 +392,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LG45P8D7VF;
+				DEVELOPMENT_TEAM = 2XRR59CY6S;
 				INFOPLIST_FILE = "$(SRCROOT)/Coordinator/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ingemark.test.Coordinator;
+				PRODUCT_BUNDLE_IDENTIFIER = hr.lioncode.test.Coordinator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
